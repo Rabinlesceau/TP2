@@ -8,6 +8,10 @@ body{
     color: black;
 }
 
+.nav, .sidenav{
+    display: none !important;
+}
+
 .section{
     padding: 25px;
 }
@@ -177,8 +181,14 @@ body{
 
 /*partie responsive*/
 
-@media screen and (max-width: 450px){
-    
+@media screen and (max-width: 480px){
+ 
+    .nav, .sidenav{
+        display:initial !important;
+        color: #fff;
+        font-size: 30px;
+    }
+
     .conteneur .titre img{
         margin-left: -30%;
         width: 80px;
@@ -233,5 +243,9 @@ body{
         text-align: center;
         transition: all 0.2s;
         content: '';    
+    }
+
+    .tête .menu{
+        display: none !important;
     }
 }   

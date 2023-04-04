@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cours | tp2</title>
     <link rel="stylesheet" href="css/cours.css">
+    <link rel="stylesheet" href="css/sdb.css">
     <!-- Open graph -->
     <meta property="og:title" content="Letecode - tp2fin">
     <meta property="og:description" content="Letecode est une communauté dynamique des programmeurs de génie">
@@ -21,6 +22,16 @@
                 <img src="image/logoltc.png" alt="logoS">
                 <span>Letecode</span>
             </a>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Accueil</a>
+                <a href="cours.html">Cours</a>
+                <a href="contact.html">Contact</a>
+                <a href="communaute.html">Communauté</a>
+              </div>
+              <div id="main">
+                <span onclick="openNav()" class="nav">&#9776;</span>
+              </div>
             <ul class="menu">
                 <li class="item active"><a href="index.html">Accueil</a></li>
                 <li class="item"><a href="cours.html">Cours</a></li>
@@ -94,7 +105,10 @@
             </div>
         </div>
     </section>
-    <footer class="pied"><div class="conteneur"><p>Dévelopé par Letecode @2023</p></div></footer>
+    <footer class="pied">
+        <div class="conteneur"><p>Dévelopé par Letecode @2023</p></div>
+    </footer>
     <script src="js/jscript.js"></script>
+    <script src="js/sdb.js"></script>
 </body>
 </html>
