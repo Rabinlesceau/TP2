@@ -148,18 +148,22 @@ body{
 .pied{
     background-color: #0F2243;
     color:#fff;
-    padding: 40px;
+    padding: 30px;
     margin-top: 5%;
 }
 
 /*partie responsive*/
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 870px){
     
     .nav, .sidenav{
         display:initial !important;
         color: #fff;
         font-size: 30px;
+    }
+
+    .nav{
+        margin-left: 100%;
     }
     
     .conteneur .titre img{

@@ -174,7 +174,7 @@ body{
 .pied{
     background-color: #0F2243;
     color:#fff;
-    padding: 40px;
+    padding: 30px;
     margin-top: 5%;
 }
 
@@ -187,6 +187,10 @@ body{
         display:initial !important;
         color: #fff;
         font-size: 30px;
+    }
+
+    .nav{
+        margin-left: 100%;
     }
 
     .conteneur .titre img{
